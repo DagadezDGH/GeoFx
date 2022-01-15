@@ -5,7 +5,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 @Generated("jsonschema2pojo")
-public class Example {
+public class Datos {
 
 	@SerializedName("ip")
 	@Expose
@@ -42,10 +42,10 @@ public class Example {
 	private String zip;
 	@SerializedName("latitude")
 	@Expose
-	private Float latitude;
+	private Double latitude;
 	@SerializedName("longitude")
 	@Expose
-	private Float longitude;
+	private Double longitude;
 	@SerializedName("location")
 	@Expose
 	private Location location;
@@ -70,7 +70,7 @@ public class Example {
 		this.ip = ip;
 	}
 
-	public Example withIp(String ip) {
+	public Datos withIp(String ip) {
 		this.ip = ip;
 		return this;
 	}
@@ -83,7 +83,7 @@ public class Example {
 		this.hostname = hostname;
 	}
 
-	public Example withHostname(String hostname) {
+	public Datos withHostname(String hostname) {
 		this.hostname = hostname;
 		return this;
 	}
@@ -96,7 +96,7 @@ public class Example {
 		this.type = type;
 	}
 
-	public Example withType(String type) {
+	public Datos withType(String type) {
 		this.type = type;
 		return this;
 	}
@@ -109,7 +109,7 @@ public class Example {
 		this.continentCode = continentCode;
 	}
 
-	public Example withContinentCode(String continentCode) {
+	public Datos withContinentCode(String continentCode) {
 		this.continentCode = continentCode;
 		return this;
 	}
@@ -122,7 +122,7 @@ public class Example {
 		this.continentName = continentName;
 	}
 
-	public Example withContinentName(String continentName) {
+	public Datos withContinentName(String continentName) {
 		this.continentName = continentName;
 		return this;
 	}
@@ -135,7 +135,7 @@ public class Example {
 		this.countryCode = countryCode;
 	}
 
-	public Example withCountryCode(String countryCode) {
+	public Datos withCountryCode(String countryCode) {
 		this.countryCode = countryCode;
 		return this;
 	}
@@ -148,7 +148,7 @@ public class Example {
 		this.countryName = countryName;
 	}
 
-	public Example withCountryName(String countryName) {
+	public Datos withCountryName(String countryName) {
 		this.countryName = countryName;
 		return this;
 	}
@@ -161,7 +161,7 @@ public class Example {
 		this.regionCode = regionCode;
 	}
 
-	public Example withRegionCode(String regionCode) {
+	public Datos withRegionCode(String regionCode) {
 		this.regionCode = regionCode;
 		return this;
 	}
@@ -174,7 +174,7 @@ public class Example {
 		this.regionName = regionName;
 	}
 
-	public Example withRegionName(String regionName) {
+	public Datos withRegionName(String regionName) {
 		this.regionName = regionName;
 		return this;
 	}
@@ -187,7 +187,7 @@ public class Example {
 		this.city = city;
 	}
 
-	public Example withCity(String city) {
+	public Datos withCity(String city) {
 		this.city = city;
 		return this;
 	}
@@ -200,33 +200,33 @@ public class Example {
 		this.zip = zip;
 	}
 
-	public Example withZip(String zip) {
+	public Datos withZip(String zip) {
 		this.zip = zip;
 		return this;
 	}
 
-	public Float getLatitude() {
+	public Double getLatitude() {
 		return latitude;
 	}
 
-	public void setLatitude(Float latitude) {
+	public void setLatitude(Double latitude) {
 		this.latitude = latitude;
 	}
 
-	public Example withLatitude(Float latitude) {
+	public Datos withLatitude(Double latitude) {
 		this.latitude = latitude;
 		return this;
 	}
 
-	public Float getLongitude() {
+	public Double getLongitude() {
 		return longitude;
 	}
 
-	public void setLongitude(Float longitude) {
+	public void setLongitude(Double longitude) {
 		this.longitude = longitude;
 	}
 
-	public Example withLongitude(Float longitude) {
+	public Datos withLongitude(Double longitude) {
 		this.longitude = longitude;
 		return this;
 	}
@@ -239,7 +239,7 @@ public class Example {
 		this.location = location;
 	}
 
-	public Example withLocation(Location location) {
+	public Datos withLocation(Location location) {
 		this.location = location;
 		return this;
 	}
@@ -252,7 +252,7 @@ public class Example {
 		this.timeZone = timeZone;
 	}
 
-	public Example withTimeZone(TimeZone timeZone) {
+	public Datos withTimeZone(TimeZone timeZone) {
 		this.timeZone = timeZone;
 		return this;
 	}
@@ -265,7 +265,7 @@ public class Example {
 		this.currency = currency;
 	}
 
-	public Example withCurrency(Currency currency) {
+	public Datos withCurrency(Currency currency) {
 		this.currency = currency;
 		return this;
 	}
@@ -278,7 +278,7 @@ public class Example {
 		this.connection = connection;
 	}
 
-	public Example withConnection(Connection connection) {
+	public Datos withConnection(Connection connection) {
 		this.connection = connection;
 		return this;
 	}
@@ -291,7 +291,7 @@ public class Example {
 		this.security = security;
 	}
 
-	public Example withSecurity(Security security) {
+	public Datos withSecurity(Security security) {
 		this.security = security;
 		return this;
 	}

@@ -31,7 +31,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Label fx:id="labelLatitude" text="..." />
+            <Label fx:id="labelLatitude" text="..." VBox.vgrow="ALWAYS" />
          </children>
       </VBox>
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
@@ -41,7 +41,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Label fx:id="labelLongitude" text="..." />
+            <Label fx:id="labelLongitude" text="..." VBox.vgrow="ALWAYS" />
          </children>
       </VBox>
       <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="1">
@@ -51,8 +51,8 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Label fx:id="labeFlag" text="..." />
-            <ImageView fx:id="ivFlag" fitHeight="32.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="labelFlag" text="..." />
+            <ImageView fx:id="imageFlag" fitHeight="32.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/flags/64x42/ES.png" />
                </image>

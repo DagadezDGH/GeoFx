@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 import com.google.gson.Gson;
 
 
-import dad.geofx.map.Example;
+import dad.geofx.map.Datos;
 import okhttp3.ConnectionPool;
 import okhttp3.OkHttpClient;
 import retrofit2.Response;
@@ -35,10 +35,10 @@ public class GeoService {
 		service = retrofit.create(GeoInterface.class);
 	}
 
-	public Example ConnectionData(String ip) throws Exception {
-		Response<Example> response = service.ipCheck(ip).execute();
+	public Datos ConnectionData(String ip) throws Exception {
+		Response<Datos> response = service.ipCheck(ip).execute();
 		assertResponse(response);
-		Example message = response.body();
+		Datos message = response.body();
 		return message;
 
 	}
